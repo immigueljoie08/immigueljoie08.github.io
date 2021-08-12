@@ -38,14 +38,15 @@ body{
     position: relative;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    padding-left: 420px;
-    padding-right: 420px;
-    width: 1080px;
+    max-width: 1080px;
+    min-width: 800px;
     margin: 0 auto;
     top: -40px;
     transform: translateY(4rem);
     opacity: 0;
     animation: fadeInUp 3s ease forwards;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .wrapper{
@@ -54,6 +55,7 @@ body{
     text-align: center;
     font-size: 3.5rem;
     color: white;
+    z-index: 0;
 }
 
 .banner-photo{
@@ -63,3 +65,4 @@ body{
     opacity: 0;
     animation: fadeInUp 3s ease 1.5s forwards;
 }
+

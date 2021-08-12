@@ -1,6 +1,7 @@
 :root{
     --font-color: #332851;
     --secondary: #CA3074;
+    --tertiary: #f6c667;
 }
 
 @font-face {
@@ -20,17 +21,17 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 0.5vw;
+    width: 10px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: var(--font-color); 
+    background: var(--secondary); 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--main-color); 
+    background: var(--tertiary);
   }
   
   /* Handle on hover */
