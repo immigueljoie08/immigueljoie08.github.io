@@ -66,3 +66,46 @@ body{
     animation: fadeInUp 3s ease 1.5s forwards;
 }
 
+h2{
+    padding-left: 20px;
+}
+
+.calendar{
+    height: 80px;
+    margin-top: -10px;
+}
+
+.value{
+    margin-top: 0px;
+    font-size: 1.5rem;;
+}
+
+.value1{
+    margin-top: -25px;
+    font-size: 1.5rem;;
+}
+
+.value2{
+    margin-top: -25px;
+    font-size: 1.0rem;;
+}
+
+.value3{
+    margin-top: -20px;
+    font-size: 1.2rem;;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: var(--font-color);
+    color: white;
+    text-align: center;
+  }
+
+.footer-logo{
+    height: 30px;
+    margin-top: -10px;
+}
+
